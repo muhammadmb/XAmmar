@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components/macro";
 import { Link } from 'react-router-dom';
 import { CgMenuRight } from 'react-icons/all';
+import { IoHome } from 'react-icons/io5';
 
 export const Nav = styled.nav`
     height: 60px;
@@ -10,11 +11,11 @@ export const Nav = styled.nav`
     padding: 1rem 2rem;
     z-index: 100;
     position: fixed;
-    background-color: #CCC;
+    background-color: rgba(0, 0, 0, .15);
 `;
 
 const NavLink = css`
-    color:#777;
+    color:#FFF;
     display: flex;
     align-items: center;
     padding: 0 1rem;
@@ -23,10 +24,21 @@ const NavLink = css`
     text-decoration:none;
 `;
 
+export const HomeIcon = styled(IoHome)
+    `
+    font-size:50px;
+    margin-right:5px;
+`;
+
 export const Logo = styled(Link)`
     ${NavLink}
     font-style:italic;
     font-weight: bold;
+    transition: .3s;
+    
+    &:hover{
+        color:#CD853F;
+    }
 `;
 
 export const MenuBars = styled(CgMenuRight)`
@@ -55,6 +67,11 @@ export const NavManu = styled.div`
 
 export const NavManuLinks = styled(Link)`
     ${NavLink}
+    transition: .3s;
+
+    &:hover{
+        color:#CD853F;
+    }
 `;
 
 export const NavBtn = styled.div`
