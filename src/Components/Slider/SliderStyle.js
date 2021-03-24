@@ -93,6 +93,10 @@ export const SliderContent = styled.div
         margin-bottom:1.2rem;
         text-shadow: 0px 0px 20px rgba(0,0,0,0.4);
     }
+
+    @media screen and (max-width: 600px){
+        margin-left: 1.5rem;
+    }
 `;
 
 
@@ -127,6 +131,11 @@ export const SliderButtons = styled.div
     right: 50px;
     display: fix;
     z-index: 10;
+
+    @media screen and (max-width: 600px){
+        bottom: 75px;
+        right: 25px;
+    }
 `;
 
 export const PrevArrow = styled(IoArrowBack)`${ArrowButtons}`;

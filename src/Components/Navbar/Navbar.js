@@ -3,12 +3,11 @@ import { menuData } from '../../Data/MenuData';
 import { Button } from '../Button/Button';
 import { Nav, Logo, NavManu, MenuBars, NavManuLinks, NavBtn, HomeIcon } from './NavbarStyle';
 
-
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <Nav>
             <Logo to="/"><HomeIcon />XAmmar</Logo>
-            <MenuBars />
+            <MenuBars onClick={toggle} />
             <NavManu>
                 {menuData.map((item, index) => (
                     <NavManuLinks

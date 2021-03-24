@@ -12,6 +12,10 @@ export const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     background-color: rgba(0, 0, 0, .15);
+
+    @media screen and (max-width: 600px){
+        padding: 1rem .5rem;
+    }
 `;
 
 const NavLink = css`
