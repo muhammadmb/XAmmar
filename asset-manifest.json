@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/xammar/static/css/main.bab0b925.chunk.css",
-    "main.js": "/xammar/static/js/main.f207e6cd.chunk.js",
-    "main.js.map": "/xammar/static/js/main.f207e6cd.chunk.js.map",
-    "runtime-main.js": "/xammar/static/js/runtime-main.5f7a4d4f.js",
-    "runtime-main.js.map": "/xammar/static/js/runtime-main.5f7a4d4f.js.map",
-    "static/js/2.32d393a2.chunk.js": "/xammar/static/js/2.32d393a2.chunk.js",
-    "static/js/2.32d393a2.chunk.js.map": "/xammar/static/js/2.32d393a2.chunk.js.map",
-    "static/js/3.1f11f4e3.chunk.js": "/xammar/static/js/3.1f11f4e3.chunk.js",
-    "static/js/3.1f11f4e3.chunk.js.map": "/xammar/static/js/3.1f11f4e3.chunk.js.map",
+    "main.js": "/xammar/static/js/main.e6f72035.chunk.js",
+    "main.js.map": "/xammar/static/js/main.e6f72035.chunk.js.map",
+    "runtime-main.js": "/xammar/static/js/runtime-main.5a3e4c96.js",
+    "runtime-main.js.map": "/xammar/static/js/runtime-main.5a3e4c96.js.map",
+    "static/js/2.15ed4e12.chunk.js": "/xammar/static/js/2.15ed4e12.chunk.js",
+    "static/js/2.15ed4e12.chunk.js.map": "/xammar/static/js/2.15ed4e12.chunk.js.map",
+    "static/js/3.435e017a.chunk.js": "/xammar/static/js/3.435e017a.chunk.js",
+    "static/js/3.435e017a.chunk.js.map": "/xammar/static/js/3.435e017a.chunk.js.map",
     "index.html": "/xammar/index.html",
     "static/css/main.bab0b925.chunk.css.map": "/xammar/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.32d393a2.chunk.js.LICENSE.txt": "/xammar/static/js/2.32d393a2.chunk.js.LICENSE.txt"
+    "static/js/2.15ed4e12.chunk.js.LICENSE.txt": "/xammar/static/js/2.15ed4e12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f7a4d4f.js",
-    "static/js/2.32d393a2.chunk.js",
+    "static/js/runtime-main.5a3e4c96.js",
+    "static/js/2.15ed4e12.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.f207e6cd.chunk.js"
+    "static/js/main.e6f72035.chunk.js"
   ]
 }
