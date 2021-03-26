@@ -11,7 +11,8 @@ export const Nav = styled.nav`
     padding: 1rem 2rem;
     z-index: 100;
     position: fixed;
-    background-color: rgba(0, 0, 0, .15);
+    background-color: ${({ background }) => (background === true ? '#06517d' : 'rgba(6, 81, 125, .15)')} ;
+    transition: .8s ease-in;
 
     @media screen and (max-width: 600px){
         padding: 1rem .5rem;

@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { menuData } from '../../Data/MenuData';
 import { Button } from '../Button/Button';
 import { Nav, Logo, NavManu, MenuBars, NavManuLinks, NavBtn, HomeIcon } from './NavbarStyle';
 
 const Navbar = ({ toggle }) => {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeNav = () => {
+        if (window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeNav);
+
     return (
-        <Nav>
+        <Nav background={navbar}>
             <Logo to="/"><HomeIcon />XAmmar</Logo>
             <MenuBars onClick={toggle} />
             <NavManu>

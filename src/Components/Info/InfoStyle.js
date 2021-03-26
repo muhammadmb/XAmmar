@@ -36,6 +36,8 @@ export const ColumnLeft = styled.div
 
     p{
         margin-bottom: 2rem;
+        color: #444;
+        line-height: 1.7;
     }
 `;
 

@@ -8,6 +8,7 @@ import Slider from './Components/Slider/Slider';
 import { SliderData } from './Data/SliderData';
 import GlobalStyle from "./GlobalStyle";
 import { InfoData, InfoDataTwo } from './Data/InfoData'
+import Interior from './Components/InteriorSection/Interior';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Slider slides={SliderData} />
         <Info {...InfoData} />
         <Info {...InfoDataTwo} />
+        <Interior />
       </BrowserRouter>
 
     </>
