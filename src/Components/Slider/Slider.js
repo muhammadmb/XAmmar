@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from '../Button/Button';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
     SliderSection,
     SliderWrapper,
@@ -35,6 +37,10 @@ const Slider = (props) => {
 
     }, [current, length])
 
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
+
     const nextSlide = () => {
         SetCurrent(current === length - 1 ? 0 : current + 1);
     }
@@ -55,8 +61,8 @@ const Slider = (props) => {
                         <Slide key={index}>
                             {index === current && (
                                 <MainSlider>
-                                    <SliderImg src={slide.image} alt={slide.alt} />
-                                    <SliderContent>
+                                    <SliderImg data-aos="zoom-out-up" src={slide.image} alt={slide.alt} />
+                                    <SliderContent data-aos="fade-up" >
                                         <h1>{slide.title}</h1>
                                         <p>{slide.price}</p>
                                         <Button

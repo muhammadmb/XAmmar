@@ -9,6 +9,7 @@ import { SliderData } from './Data/SliderData';
 import GlobalStyle from "./GlobalStyle";
 import { InfoData, InfoDataTwo } from './Data/InfoData'
 import Interior from './Components/InteriorSection/Interior';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Info {...InfoData} />
         <Info {...InfoDataTwo} />
         <Interior />
+        <Footer />
       </BrowserRouter>
 
     </>

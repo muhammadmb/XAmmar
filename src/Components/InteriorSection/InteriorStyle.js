@@ -8,8 +8,8 @@ export const InteriorSection = styled.div
     display: flex;
 
     @media (max-width: 991px){
-        display: unset;
-        background:none;
+        display: inline-block;
+        height: 100%;
     }
 
 `;
