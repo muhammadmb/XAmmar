@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
     const [navbar, setNavbar] = useState(false);
 
     const changeNav = () => {
-        if (window.scrollY >= 80) {
+        if (window.scrollY >= 80 || window.location.pathname !== "/") {
             setNavbar(true);
         } else {
             setNavbar(false)
@@ -16,6 +16,7 @@ const Navbar = ({ toggle }) => {
     }
 
     window.addEventListener('scroll', changeNav);
+    window.addEventListener('click', changeNav);
 
     return (
         <Nav background={navbar}>
