@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/XAmmar/static/css/main.bab0b925.chunk.css",
-    "main.js": "/XAmmar/static/js/main.806d109b.chunk.js",
-    "main.js.map": "/XAmmar/static/js/main.806d109b.chunk.js.map",
+    "main.js": "/XAmmar/static/js/main.d6c97e4b.chunk.js",
+    "main.js.map": "/XAmmar/static/js/main.d6c97e4b.chunk.js.map",
     "runtime-main.js": "/XAmmar/static/js/runtime-main.c7e6f048.js",
     "runtime-main.js.map": "/XAmmar/static/js/runtime-main.c7e6f048.js.map",
     "static/css/2.30fbed10.chunk.css": "/XAmmar/static/css/2.30fbed10.chunk.css",
-    "static/js/2.b2cf049a.chunk.js": "/XAmmar/static/js/2.b2cf049a.chunk.js",
-    "static/js/2.b2cf049a.chunk.js.map": "/XAmmar/static/js/2.b2cf049a.chunk.js.map",
+    "static/js/2.8f9029e2.chunk.js": "/XAmmar/static/js/2.8f9029e2.chunk.js",
+    "static/js/2.8f9029e2.chunk.js.map": "/XAmmar/static/js/2.8f9029e2.chunk.js.map",
     "static/js/3.6525786a.chunk.js": "/XAmmar/static/js/3.6525786a.chunk.js",
     "static/js/3.6525786a.chunk.js.map": "/XAmmar/static/js/3.6525786a.chunk.js.map",
     "index.html": "/XAmmar/index.html",
     "static/css/2.30fbed10.chunk.css.map": "/XAmmar/static/css/2.30fbed10.chunk.css.map",
     "static/css/main.bab0b925.chunk.css.map": "/XAmmar/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.b2cf049a.chunk.js.LICENSE.txt": "/XAmmar/static/js/2.b2cf049a.chunk.js.LICENSE.txt"
+    "static/js/2.8f9029e2.chunk.js.LICENSE.txt": "/XAmmar/static/js/2.8f9029e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c7e6f048.js",
     "static/css/2.30fbed10.chunk.css",
-    "static/js/2.b2cf049a.chunk.js",
+    "static/js/2.8f9029e2.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.806d109b.chunk.js"
+    "static/js/main.d6c97e4b.chunk.js"
   ]
 }
