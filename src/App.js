@@ -9,6 +9,7 @@ import HomePage from './Pages/Home/HomePage';
 import MainPage from './Pages/Main/MainPage'
 import { HomeForSale } from './Data/HomeForSaleData';
 import { HomeForRantel } from './Data/HomesForRental';
+import About from './Pages/About/About';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route exact path="/XAmmar" component={MainPage} />
           <Route path="/homes" component={() => <HomePage HomeForSale={HomeForSale} />} />
           <Route path="/rentals" component={() => <HomePage HomeForSale={HomeForRantel} />} />
+          <Route path="/about" component={About} />
         </Switch>
         <Footer />
       </BrowserRouter>
