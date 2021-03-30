@@ -10,6 +10,7 @@ import MainPage from './Pages/Main/MainPage'
 import { HomeForSale } from './Data/HomeForSaleData';
 import { HomeForRantel } from './Data/HomesForRental';
 import About from './Pages/About/About';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/homes" component={() => <HomePage HomeForSale={HomeForSale} />} />
           <Route path="/rentals" component={() => <HomePage HomeForSale={HomeForRantel} />} />
           <Route path="/about" component={About} />
+          <Route path="/contact" component={ContactUs} />
         </Switch>
         <Footer />
       </BrowserRouter>
